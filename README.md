@@ -10,7 +10,7 @@ After using the numpy module to generate 2000 random latitude, longitude coordin
 
 Following creating, user input was employed to select cities from the above data frame based on current temperature conditions to create a new data frame and an API call was made to Google Maps using existing latitude, longitude coordinate pairs to determine the name of the closest hotel in each city.  After appending the new data frame to include the name of the closest hotel in each city and removing null entries, the information was used to produce a Google Map with markers to indicate the location of all cities with current temperatures inside the range selected and pop up info boxes to display the name of the hotel, city an country along with current weather conditions (See Figure 2).
 
--	Link to figure 2
+![](https://github.com/Scruffy-Bearie/World_Weather_Analysis/blob/main/Vacation_Search/WeatherPy_vacation_map.png)
 
 Using the map created above four cities in the same country were selected and an API call to Google Maps Directions was used to plot the best travel route between those cities (See Figure 3).  Finally, information acquired in previous steps was used to produce a Google Map with markers to identify selected cities and pop up info boxes to relay the name of the selected hotel, city and country along with current weather conditions (See Figure 4).
 
