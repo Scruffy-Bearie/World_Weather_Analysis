@@ -15,10 +15,11 @@ Following creating, user input was employed to select cities from the above data
 
 Using the map created above four cities in the same country were selected and an API call to Google Maps Directions was used to plot the best travel route between those cities (See Figure 3).  Finally, information acquired in previous steps was used to produce a Google Map with markers to identify selected cities and pop up info boxes to relay the name of the selected hotel, city and country along with current weather conditions (See Figure 4).
 
-### Figure 3: Travel Route Between Selected Cities
+### Figure 3: Travel Route Between Selected Cities in Indonesia
 ![](https://github.com/Scruffy-Bearie/World_Weather_Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_map.png)
 
-### Figure 4: 
+### Figure 4: Map of Selected Cities in Indonesia with Information Boxes
+![](https://github.com/Scruffy-Bearie/World_Weather_Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_map_markers.png)
 
 ## Analysis
 
