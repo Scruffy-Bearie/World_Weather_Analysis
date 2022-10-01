@@ -6,7 +6,7 @@ An Application Programming Interface, or API, is a type of software interface th
 ## Results
 After using the numpy module to generate 2000 random latitude, longitude coordinate pairs, the citipy module was used to determine which city, if any was closest to those coordinates and an API call was made to OpenWeatherMaps to determine the current weather conditions in those cities.  The city name and coordinates were then placed along with select information from the API call into a Pandas DataFrame (See Figure 1).
 
--	Link to figure 1
+![](https://github.com/Scruffy-Bearie/World_Weather_Analysis/blob/main/DataFrameSample.png)
 
 Following creating, user input was employed to select cities from the above data frame based on current temperature conditions to create a new data frame and an API call was made to Google Maps using existing latitude, longitude coordinate pairs to determine the name of the closest hotel in each city.  After appending the new data frame to include the name of the closest hotel in each city and removing null entries, the information was used to produce a Google Map with markers to indicate the location of all cities with current temperatures inside the range selected and pop up info boxes to display the name of the hotel, city an country along with current weather conditions (See Figure 2).
 
